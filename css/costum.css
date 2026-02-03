@@ -1,0 +1,232 @@
+/*aspetti del body*/
+body {
+  font-family: "PT Serif", serif; Arial, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  line-height: normal;
+  background-image: url('../jpg/July_11th_1837.jpg'); /*immagine sfondo*/
+  background-size: 100% auto; 
+  background-position: top center; 
+  background-repeat: repeat-y;
+} 
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    line-height: 1.5;
+    word-spacing: 5px;
+    font-size: 16px;
+  }
+}
+
+
+/*colore testo*/
+h1, h2, h3, h4, h5, h6, strong {
+	color: #49326B
+}
+
+q {
+	color: #D814EB; 
+}
+
+/*colore bottone consegna*/
+.consegna {
+	color: #F3EEE9 
+}
+
+/*colore tabella*/
+
+.tabella-title {
+	color: #49326B !important;
+	font-size: 16px !important;
+
+}
+
+.tabella {
+	font-size: 16px !important;
+}
+
+
+/*colore link*/
+a:hover, a:active{
+	color: #D814EB;
+}
+
+.link-main {
+	color: #49326B
+}
+
+.link-footer {
+	color: #F3EEE9 ;
+}
+
+/*Link pagine catalogo*/
+.page-link{
+	color: #49326B;
+}
+.page-link:hover, .page-link:active{
+	color: #D814EB;
+}
+
+/* Header */
+header {
+	font-family: "Great Vibes", cursive; Arial, sans-serif;
+	font-weight: 400;
+	padding: 50px;
+}
+
+.costum-h2 {
+	font-size: 80px;
+  	margin: 0px;
+  	line-height: normal;
+}
+
+.costum-h1 {
+	font-size: 100px;
+  	margin: 0px;
+  	line-height: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+	header {
+	padding: 20px;
+	}
+
+	.costum-h2 {
+		font-size: 40px;
+		margin: 0px;
+		line-height: normal;
+	}
+
+	.costum-h1 {
+		font-size: 60px;
+	  	margin: 0px;
+	  	line-height: normal;
+	}
+}
+
+
+
+/*barra di navigazione*/
+
+.costum-navbar {
+	background-color: #49326B !important;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.costum-navbar .navbar-nav .nav-link {
+	color: #F3EEE9 !important;
+}
+
+.costum-navbar .navbar-brand {
+	color: #F3EEE9 !important;
+}
+
+.costum-dropdown .dropdown-menu{
+	background-color: #F3EEE9!important;
+}
+
+.costum-dropdown .dropdown-item{
+	color: #49326B !important;
+}
+.dropdown-item:hover, .dropdown-item:hover{
+	background-color: #D814EB !important;
+}
+
+/* impostazioni sezione contenuto*/
+.centrare {
+	 width: 100%; 
+	 display: flex; 
+	 justify-content: center; /* Centra la sezione */ 
+	 align-items: center;
+}
+
+.contenitore { 
+	background-color: white; 	
+	padding: 40px; 
+	width: 80%;  
+	min-height: 300px; 
+	box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2); 
+	border-radius: 0px; 
+	
+}
+
+.contenitore2 { 
+	background-color: white; 	
+	padding: 40px; 
+	width: 90%;  
+	min-height: 300px; 
+	box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2); 
+	border-radius: 0px; 
+	
+}
+
+/*footer*/
+footer {
+	background-color: #49326B;
+	color: #F3EEE9;
+	padding: 40px;
+	box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+/*immagini thumbnail*/
+
+.img-thumbnail{
+	max-height: 600px;
+}
+
+/*stile icons*/
+
+.bi {
+	padding: 1.5rem;
+	font-size: 2rem;
+}
+
+.bi-person-circle {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #49326B;
+	border-radius: 5px;
+}
+
+/*immagini web project plan*/
+.piano{
+	
+	max-width: 70%
+}
+
+
+/* impostazioni word cloud*/
+
+.word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    min-height: 400px;
+    align-items: center;
+}
+   
+.cloud-link {
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+    color: #49326B;
+    
+  }
+
+.cloud-link:hover {   }
+
+
+
+
+/*colore active navbar*/
+.active {
+	background-color: white !important;
+}
